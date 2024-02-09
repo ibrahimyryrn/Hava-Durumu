@@ -73,8 +73,11 @@ form{
     font-size: 20px;
 }
 
-@media (max-width:768px){
+@media only screen and (max-width:768px){
     .details div{
         width: 100%;
+    }
+    body{
+        height: auto !important;
     }
 }
